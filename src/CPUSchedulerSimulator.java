@@ -43,7 +43,7 @@ class CPUScheduler {
         for (Process process : processes) {
             System.out.println("Process " + process.pid + " started at time " + currentTime);
             currentTime += process.burstTime;
-            System.out.println("Process " + process.pid + " finished at time " + currentTime);
+            System.out.println("Process " + process.pid + " finished at time " + currentTime);     
         }
     }
 
